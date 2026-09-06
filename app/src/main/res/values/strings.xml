@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Strings - Calculadora BREAK
+    Todos los textos visibles de la UI en español.
+    Regla: ningún texto hardcoded en los layouts XML.
+-->
+<resources>
+
+    <!-- Título de la aplicación -->
+    <string name="app_name">Calculadora BREAK</string>
+
+    <!-- Encabezado principal de la pantalla -->
+    <string name="app_header">Cafetería BREAK — La Juan</string>
+
+    <!-- Etiquetas de captura de datos -->
+    <string name="label_product_name">Nombre del producto</string>
+    <string name="label_unit_price">Precio unitario ($)</string>
+    <string name="label_quantity">Cantidad</string>
+
+    <!-- Hints de los campos de entrada (accesibilidad) -->
+    <string name="hint_product_name">Ej. Café americano</string>
+    <string name="hint_unit_price">Ej. 4500</string>
+    <string name="hint_quantity">Ej. 3</string>
+
+    <!-- Etiquetas de resultados -->
+    <string name="label_subtotal">Subtotal:</string>
+    <string name="label_discount">Descuento aplicado:</string>
+    <string name="label_total">TOTAL A PAGAR:</string>
+
+    <!-- Textos iniciales de los resultados (antes de calcular) -->
+    <string name="default_result_value">$0</string>
+    <string name="default_discount_percent">0%</string>
+
+    <!-- Botones de acción -->
+    <string name="btn_calculate">CALCULAR</string>
+    <string name="btn_clear">LIMPIAR</string>
+
+    <!-- Mensajes de validación (errores poco intrusivos) -->
+    <string name="error_empty_product">Ingrese el nombre del producto</string>
+    <string name="error_empty_price">Ingrese el precio unitario</string>
+    <string name="error_empty_quantity">Ingrese la cantidad</string>
+    <string name="error_invalid_price">El precio debe ser mayor a 0</string>
+    <string name="error_invalid_quantity">La cantidad debe ser mayor a 0</string>
+
+</resources>
